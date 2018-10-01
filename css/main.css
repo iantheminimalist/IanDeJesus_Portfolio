@@ -1,0 +1,86 @@
+body, html{
+  height: 100%;
+  margin: 0;
+}
+
+.section{
+
+}
+
+.container{
+
+
+}
+
+/***    Alignment   ****/
+.all-center{
+  text-align: center;
+}
+.all-left{
+  text-align: left;
+}
+.all-right{
+  text-align: right;
+}
+
+/***    Heading Title   ****/
+.HTop{
+  margin-top: 2em;
+  margin-bottom: 2em !important;
+  letter-spacing: 5px;
+
+}
+
+.space-m10{
+  padding: 3em;
+}
+
+/***   Parallax   ****/
+.paraheading{
+  padding-top: 50px;
+  font-weight: 400;
+  font-size: 36px ;
+  letter-spacing: 20px;
+  text-align: center;
+  color: white;
+
+}
+.paratext{
+  font-weight: 200;
+  letter-spacing: 5px;
+  text-align: center;
+}
+.paraheading, .paratext{
+  color: white;
+
+}
+
+.paraImg1, .paraImg2, .paraImg3{
+  position:relative;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  /*
+    fixed = parallax
+    scroll = normal
+  */
+  background-attachment:fixed;
+  padding: 200px 0;
+  margin: 0 auto;
+  opacity:1;
+}
+.paraImg1{
+  background-image:url('../img/image1.jpg');
+  min-height: 20%;
+}
+
+.paraImg2{
+  background-image: url('../img/image2.jpg');
+  min-height: 20%;
+
+}
+
+.paraImg3{
+  background-image: url('../img/image3.jpg');
+  min-height: 20%;
+}
