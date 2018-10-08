@@ -1,0 +1,60 @@
+a .typcn{
+  transition: all .2s ease-in-out;
+}
+
+.typcn-mortar-board{
+  font-size: 100px;
+  margin: 0 auto;
+  vertical-align: middle;
+
+  z-index: 10;
+}
+/*
+a .typcn:hover{
+    font-size: 60px;
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    -o-transform: scale(1.25);
+    transform: scale(1.25);
+}
+*/
+.lnr-ts{
+  width: 100%;
+  height: 5em;
+  fill: #5197B6;
+}
+a.typcn-color{
+  color: white;
+ }
+.typcn-white{
+  color: white;
+}
+.typcn-black{
+  color: black;
+}
+
+.typcn-social-facebook:hover{
+    color:  #3b5998;
+}
+.typcn-social-twitter:hover{
+    color:  #0084b4;
+}
+.typcn-social-pinterest:hover{
+    color: #C92228;
+}
+.typcn-social-linkedin:hover{
+    color: #0077B5;
+}
+.edu-block{
+    line-height: 100%;
+    height: auto;
+
+  }
+  .inner {
+    background-color: transparent ;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .inner3 {
+  line-height: normal; /* Reset line-height for the child. IMPORTANT: Must be "normal", no integer value allowed! */
+}
